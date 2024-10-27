@@ -26,10 +26,13 @@ https://marketplace.visualstudio.com/items?itemName=jianglinghao.vscode-npm-scri
 ## documentation
 you need a main function
 
+### if statements
+
+
 ### function declaration
 the basic structure of function declaration is this
 ```
-type functionname $ {
+type *functionname* $ {
     code here
 }
 ```
