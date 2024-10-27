@@ -1,0 +1,3 @@
+comrade_duty main $ {
+    broadcast "Hello, World!" to all comrades;
+}
