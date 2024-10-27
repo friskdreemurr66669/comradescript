@@ -14,10 +14,12 @@ maybe some others
 go to the .env and only change file name and file path
 
 ## running
-go to cd to the place you installed comradescript (place with package.json) and run the command
+cd to the place you installed comradescript (place with package.json) and run the command
 ```
 npm run build
 ```
+this generates an ast in the form of a json and a c++ file, the c++ code is what the .crsc should be
+vscode has an extension called NPM-scripts that shows the npm scripts in the folder you've opened, ctrl-k + ctrl-o to open the folder. https://marketplace.visualstudio.com/items?itemName=jianglinghao.vscode-npm-scripts
 
 ## documentation
 you need a main function
@@ -36,3 +38,5 @@ here are the valid types
 - propaganda (string)
 - party_loyalty (boolean)
 - comrade_duty (void)
+
+you cannot use arguments because those would mean local variables and that's not good, private ownership of variables is bad.
