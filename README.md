@@ -12,3 +12,27 @@ maybe some others
 
 ## using
 go to the .env and only change file name and file path
+
+## running
+go to cd to the place you installed comradescript (place with package.json) and run the command
+```
+npm run build
+```
+
+## documentation
+you need a main function
+
+### function declaration
+the basic structure of function declaration is this
+```
+type functionname $ {
+    code here
+}
+```
+
+here are the valid types
+- people_count (int)
+- resource_share (float)
+- propaganda (string)
+- party_loyalty (boolean)
+- comrade_duty (void)
