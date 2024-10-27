@@ -18,8 +18,10 @@ cd to the place you installed comradescript (place with package.json) and run th
 ```
 npm run build
 ```
-this generates an ast in the form of a json and a c++ file, the c++ code is what the .crsc should be
-vscode has an extension called NPM-scripts that shows the npm scripts in the folder you've opened, ctrl-k + ctrl-o to open the folder. https://marketplace.visualstudio.com/items?itemName=jianglinghao.vscode-npm-scripts
+this generates an ast in the form of a json and a c++ file, the c++ code is what the .crsc should be.
+
+vscode has an extension called NPM-scripts that shows the npm scripts in the folder you've opened, ctrl-k + ctrl-o to open the folder. 
+https://marketplace.visualstudio.com/items?itemName=jianglinghao.vscode-npm-scripts
 
 ## documentation
 you need a main function
