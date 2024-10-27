@@ -35,10 +35,10 @@ type functionname $ {
 ```
 
 here are the valid types
-- people_count (int)
-- resource_share (float)
-- propaganda (string)
-- party_loyalty (boolean)
-- comrade_duty (void)
+- people_count    (int)
+- resource_share  (float)
+- propaganda      (string)
+- party_loyalty   (boolean)
+- comrade_duty    (void)
 
 you cannot use arguments because those would mean local variables and that's not good, private ownership of variables is bad.
