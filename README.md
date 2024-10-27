@@ -27,13 +27,41 @@ https://marketplace.visualstudio.com/items?itemName=jianglinghao.vscode-npm-scri
 you need a main function
 
 ### if statements
+basic structure
+```
+consensus_if BOOL {
+    CODE HERE
+}
+```
 
+### repeat
+basic structure
+```
+factory TIMES link POINTERNAME {
+    CODE HERE
+}
+```
+idea by chatgpt
+
+### while
+```
+proletariat_rally BOOL {
+    CODE HERE
+}
+```
+
+### for
+```
+assemble DECLARATION workers to produce WHILE items called i with process STATEMENT {
+    CODE HERE
+}
+```
 
 ### function declaration
 the basic structure of function declaration is this
 ```
-type *functionname* $ {
-    code here
+TYPE FUNCTIONAME $ {
+    CODE HERE
 }
 ```
 
@@ -45,3 +73,10 @@ here are the valid types
 - comrade_duty    (void)
 
 you cannot use arguments because those would mean local variables and that's not good, private ownership of variables is bad.
+
+main function:
+```
+comrade_duty main $ {
+    CODE HERE
+}
+```
