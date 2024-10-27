@@ -24,10 +24,22 @@ vscode has an extension called NPM-scripts that shows the npm scripts in the fol
 https://marketplace.visualstudio.com/items?itemName=jianglinghao.vscode-npm-scripts
 
 ## documentation
-you need a main function
+- you need a main function
+- semicolons
+
+### variable declaration
+variables cannot be local (can't be declared in functions and ifs and stuff) because that would be private ownership of a variable
+```
+shared TYPE NAME = VALUE;
+```
+
+here are the valid types
+- people_count    (int)
+- resource_share  (float)
+- propaganda      (string)
+- party_loyalty   (boolean)
 
 ### if statements
-basic structure
 ```
 consensus_if BOOL {
     CODE HERE
@@ -35,7 +47,6 @@ consensus_if BOOL {
 ```
 
 ### repeat
-basic structure
 ```
 factory TIMES link POINTERNAME {
     CODE HERE
@@ -58,7 +69,6 @@ assemble DECLARATION workers to produce WHILE items called i with process STATEM
 ```
 
 ### function declaration
-the basic structure of function declaration is this
 ```
 TYPE FUNCTIONAME $ {
     CODE HERE
