@@ -26,6 +26,8 @@ https://marketplace.visualstudio.com/items?itemName=jianglinghao.vscode-npm-scri
 ## documentation
 - you need a main function
 - semicolons
+- comments use //
+- WE (team of one person) didn't forget about inputs, WE couldn't get it working
 
 ### variable declaration
 variables cannot be local (can't be declared in functions and ifs and stuff) because that would be private ownership of a variable
@@ -38,6 +40,22 @@ here are the valid types
 - resource_share  (float)
 - propaganda      (string)
 - party_loyalty   (boolean)
+
+### print
+```
+broadcast MESSAGE to all comrades;
+```
+
+### default functions
+- collective_strength   (abs)
+- wave_of_change        (sin)
+- solidarity_wave       (cos)
+- revolutionary_angle   (tan)
+- root_of_progress      (sqrt)
+- people_power          (pow)
+- collective_growth     (log)
+- ground_level          (floor)
+- higher_aim            (ceil)
 
 ### if statements
 ```
@@ -90,3 +108,5 @@ comrade_duty main $ {
     CODE HERE
 }
 ```
+
+returns are just a regular ```return VALUE;```
